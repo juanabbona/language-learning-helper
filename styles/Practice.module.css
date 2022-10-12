@@ -1,0 +1,86 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridRoot {
+  max-width: 500px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.wordCard {
+  color: #FFFFFF;
+  background-color: #509bce;
+}
+
+.wordCardIncorrect {
+  color: #FFFFFF;
+  background-color: #ff6b6b;
+}
+
+.wordCardMatch {
+  color: #FFFFFF;
+  background-color: #03cea4;
+}
+
+.wordCardPartialMatch {
+  color: #000000;
+  background-color: #ffe66d;
+}
+
+.wordCardContent {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.wordCardActions {
+  display: flex;
+  justify-content: flex-end;
+  padding-block: 15px;
+  padding-inline: 30px;
+  background-color: #ffffff8e;
+}
+
+.fieldset {
+  border: none;
+  padding: 0;
+}
+
+.wordGuessTextField {
+  border: none !important;
+}
+
+.wordGuessTextFieldInput {
+  background-color: transparent !important;
+}
+
+.wordGuessTextFieldInput::before, .wordGuessTextFieldInput::after {
+  display: none;
+}
