@@ -1000,5 +1000,5 @@ export const WORDS: Array<Word> = [
   { word: "plurale", wordTranslation: "plural" },
   { word: "rabbia", wordTranslation: "anger" },
   { word: "richiesta", wordTranslation: "claim" },
-  { word: "continente", wordTranslation: "conti" },
+  { word: "continente", wordTranslation: "continent" },
 ];

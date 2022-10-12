@@ -14,3 +14,9 @@
 .gridRoot {
   max-width: 500px;
 }
+
+.paginationContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

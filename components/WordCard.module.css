@@ -1,0 +1,58 @@
+
+
+.wordCard {
+  color: #FFFFFF !important;
+  background-color: #509bce !important;
+}
+
+.wordCardError {
+  color: #FFFFFF !important;
+  background-color: #ff6b6b !important;
+}
+
+.wordCardSuccess {
+  color: #FFFFFF !important;
+  background-color: #03cea4 !important;
+}
+
+.wordCardWarning {
+  color: #000000 !important;
+  background-color: #ffe66d !important;
+}
+
+.wordCardContent {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.wordCardContentAutoHeight {
+  height: unset;
+}
+
+.wordCardActions {
+  display: flex;
+  justify-content: flex-end;
+  padding-block: 15px;
+  padding-inline: 30px;
+  background-color: #ffffff8e;
+}
+
+.fieldset {
+  border: none;
+  padding: 0;
+}
+
+.wordGuessTextField {
+  border: none !important;
+}
+
+.wordGuessTextFieldInput {
+  background-color: transparent !important;
+}
+
+.wordGuessTextFieldInput::before, .wordGuessTextFieldInput::after {
+  display: none;
+}
