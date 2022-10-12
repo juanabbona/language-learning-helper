@@ -33,23 +33,23 @@
 }
 
 .wordCard {
-  color: #FFFFFF;
-  background-color: #509bce;
+  color: #FFFFFF !important;
+  background-color: #509bce !important;
 }
 
 .wordCardIncorrect {
-  color: #FFFFFF;
-  background-color: #ff6b6b;
+  color: #FFFFFF !important;
+  background-color: #ff6b6b !important;
 }
 
 .wordCardMatch {
-  color: #FFFFFF;
-  background-color: #03cea4;
+  color: #FFFFFF !important;
+  background-color: #03cea4 !important;
 }
 
 .wordCardPartialMatch {
-  color: #000000;
-  background-color: #ffe66d;
+  color: #000000 !important;
+  background-color: #ffe66d !important;
 }
 
 .wordCardContent {
