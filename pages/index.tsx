@@ -9,8 +9,6 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Language Learning Helper</title>
-        <meta name="description" content="Flashcards for language learning" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>

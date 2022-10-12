@@ -75,8 +75,6 @@ const List: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Language Learning Helper | List all words</title>
-        <meta name="description" content="Flashcards for language learning" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
