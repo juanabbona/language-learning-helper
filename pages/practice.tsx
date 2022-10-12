@@ -1,4 +1,4 @@
-import { Button, Grid, TextField } from "@mui/material";
+import { Button, Grid, InputAdornment, TextField } from "@mui/material";
 import type { NextPage } from "next";
 import Head from "next/head";
 import {
@@ -42,6 +42,7 @@ const Practice: NextPage = () => {
   const wordGuessValueInputRef = useRef<HTMLInputElement | null>(null);
 
   const [wordIndex, setWordIndex] = useState(0);
+  const [wordIndexValue, setWordIndexValue] = useState(0);
   const [wordGuessValue, setWordGuessValue] = useState("");
   const [wordGuessResult, setWordGuessResult] =
     useState<WordGuessResult | null>();
@@ -70,10 +71,12 @@ const Practice: NextPage = () => {
   const handleWordIndexChange = (e: ChangeEvent<HTMLInputElement>) => {
     const newWordIndex = parseInt(e.target.value) - 1;
 
-    if (newWordIndex <= 0) setWordIndex(0);
-    else if (newWordIndex >= WORDS.length) setWordIndex(WORDS.length - 1);
-    else setWordIndex(newWordIndex);
+    if (newWordIndex <= 0) setWordIndexValue(0);
+    else if (newWordIndex >= WORDS.length) setWordIndexValue(WORDS.length - 1);
+    else setWordIndexValue(newWordIndex);
   };
+
+  const handleWordIndexGoClick = () => setWordIndex(wordIndexValue);
 
   const handleWordGuessValueChange = (e: ChangeEvent<HTMLInputElement>) =>
     setWordGuessValue(e.target.value);
@@ -112,9 +115,17 @@ const Practice: NextPage = () => {
           <Grid xs={12} item>
             <TextField
               type="number"
-              value={wordIndex + 1}
+              value={wordIndexValue + 1}
               onChange={handleWordIndexChange}
               label="Word #"
+              InputProps={{
+                endAdornment:
+                  wordIndex !== wordIndexValue ? (
+                    <InputAdornment position="end">
+                      <Button onClick={handleWordIndexGoClick}>Go</Button>
+                    </InputAdornment>
+                  ) : undefined,
+              }}
             />
           </Grid>
           <Grid xs={12} item>
