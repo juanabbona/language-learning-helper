@@ -106,12 +106,13 @@ const List: NextPage = () => {
               onChange={handlePageChange}
             />
           </Grid>
-          {pageWords.map((word) => (
+          {pageWords.map((word, index) => (
             <Grid xs={12} item>
               <WordCard
                 key={word.word}
                 word={word.word}
                 wordTranslation={word.wordTranslation}
+                wordNumber={index + 1}
                 autoHeight
               />
             </Grid>

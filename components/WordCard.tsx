@@ -22,6 +22,7 @@ type WordCardProps = {
   word: string;
   wordTranslation?: string;
   wordGuess?: string;
+  wordNumber?: number;
   isError?: boolean;
   isWarning?: boolean;
   isSuccess?: boolean;
@@ -40,6 +41,7 @@ const WordCard = ({
   word,
   wordTranslation,
   wordGuess,
+  wordNumber,
   isError,
   isWarning,
   isSuccess,
@@ -70,6 +72,10 @@ const WordCard = ({
         <div>
           <Typography variant="subtitle1" component="div">
             Word
+            {wordNumber && <>
+              &nbsp;
+              #{wordNumber}
+            </>}
           </Typography>
           <Typography variant="h4">
             {word}
