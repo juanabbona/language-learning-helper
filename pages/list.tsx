@@ -112,6 +112,7 @@ const List: NextPage = () => {
                 key={word.word}
                 word={word.word}
                 wordTranslation={word.wordTranslation}
+                exampleSentence={word.exampleSentence}
                 wordNumber={index + 1}
                 autoHeight
               />
