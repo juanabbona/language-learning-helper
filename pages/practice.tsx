@@ -134,6 +134,9 @@ const Practice: NextPage = () => {
               wordTranslation={
                 shouldShowAnswer ? word.wordTranslation : undefined
               }
+              exampleSentence={
+                wordGuessResult ? word.exampleSentence : undefined
+              }
               wordGuess={wordGuessValue}
               isError={wordGuessResult === WordGuessResult.Incorrect}
               isSuccess={wordGuessResult === WordGuessResult.Match}
