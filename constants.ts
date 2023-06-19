@@ -4,1315 +4,1160 @@ export const WORDS: Array<Word> = [
   {
     word: "sono",
     wordTranslation: "I am",
-    exampleSentence: "Io sono un insegnante. (I am a teacher.)",
+    exampleSentence: "Io sono un insegnante.",
   },
   {
     word: "io",
     wordTranslation: "I",
-    exampleSentence: "Io mangio una mela. (I eat an apple.)",
+    exampleSentence: "Io mangio una mela.",
   },
   {
     word: "il suo",
     wordTranslation: "his",
-    exampleSentence: "Il suo cane è grande. (His dog is big.)",
+    exampleSentence: "Il suo cane è grande.",
   },
   {
     word: "che",
     wordTranslation: "that",
-    exampleSentence:
-      "Penso che sia una buona idea. (I think that's a good idea.)",
+    exampleSentence: "Penso che sia una buona idea.",
   },
   {
     word: "lui",
     wordTranslation: "he",
-    exampleSentence: "Lui parla italiano. (He speaks Italian.)",
+    exampleSentence: "Lui parla italiano.",
   },
   {
     word: "era",
     wordTranslation: "he/she was",
-    exampleSentence:
-      "Era una giornata calda ieri. (It was a hot day yesterday.)",
+    exampleSentence: "Era una giornata calda ieri.",
   },
   {
     word: "per",
     wordTranslation: "for",
-    exampleSentence:
-      "Ho comprato un regalo per mia madre. (I bought a gift for my mother.)",
+    exampleSentence: "Ho comprato un regalo per mia madre.",
   },
   {
     word: "su",
     wordTranslation: "on",
-    exampleSentence: "Il libro è su il tavolo. (The book is on the table.)",
+    exampleSentence: "Il libro è su il tavolo.",
   },
   {
     word: "come",
     wordTranslation: "as/like",
-    exampleSentence: "Mi vesto come mia madre. (I dress like my mother.)",
+    exampleSentence: "Mi vesto come mia madre.",
   },
   {
     word: "con",
     wordTranslation: "with",
-    exampleSentence:
-      "Vado al cinema con i miei amici. (I go to the movies with my friends.)",
+    exampleSentence: "Vado al cinema con i miei amici.",
   },
   {
     word: "loro",
     wordTranslation: "they",
-    exampleSentence:
-      "Loro studiano all'università. (They study at the university.)",
+    exampleSentence: "Loro studiano all'università.",
   },
   {
     word: "essere",
     wordTranslation: "to be",
-    exampleSentence:
-      "Voglio essere un cantante famoso. (I want to be a famous singer.)",
+    exampleSentence: "Voglio essere un cantante famoso.",
   },
   {
     word: "a",
     wordTranslation: "at",
-    exampleSentence: "Vado a scuola. (I go to school.)",
+    exampleSentence: "Vado a scuola.",
   },
   {
     word: "uno",
     wordTranslation: "one",
-    exampleSentence: "Ho solo uno zucchero. (I have only one sugar.)",
+    exampleSentence: "Ho solo uno zucchero.",
   },
   {
     word: "avere",
     wordTranslation: "to have",
-    exampleSentence: "Ho un cane. (I have a dog.)",
+    exampleSentence: "Ho un cane.",
   },
   {
     word: "questo",
     wordTranslation: "this",
-    exampleSentence: "Mi piace questo vestito. (I like this dress.)",
+    exampleSentence: "Mi piace questo vestito.",
   },
   {
     word: "da",
     wordTranslation: "from",
-    exampleSentence: "Vengo da Italia. (I come from Italy.)",
+    exampleSentence: "Vengo da Italia.",
   },
   {
     word: "di",
     wordTranslation: "by",
-    exampleSentence:
-      "Il libro è scritto da un famoso autore. (The book is written by a famous author.)",
+    exampleSentence: "Il libro è scritto da un famoso autore.",
   },
   {
     word: "caldo",
     wordTranslation: "hot",
-    exampleSentence: "Fuori fa molto caldo. (It's very hot outside.)",
+    exampleSentence: "Fuori fa molto caldo.",
   },
   {
     word: "parola",
     wordTranslation: "word",
-    exampleSentence: "Non conosco questa parola. (I don't know this word.)",
+    exampleSentence: "Non conosco questa parola.",
   },
   {
     word: "ma",
     wordTranslation: "but",
-    exampleSentence:
-      "Mi piace il gelato, ma non posso mangiarlo. (I like ice cream, but I can't eat it.)",
+    exampleSentence: "Mi piace il gelato, ma non posso mangiarlo.",
   },
   {
     word: "cosa",
     wordTranslation: "what",
-    exampleSentence: "Cosa stai facendo? (What are you doing?)",
+    exampleSentence: "Cosa stai facendo?",
   },
   {
     word: "alcuni",
     wordTranslation: "some",
-    exampleSentence: "Ho comprato alcuni libri. (I bought some books.)",
+    exampleSentence: "Ho comprato alcuni libri.",
   },
   {
     word: "è",
     wordTranslation: "is",
-    exampleSentence: "Il sole è caldo. (The sun is hot.)",
+    exampleSentence: "Il sole è caldo.",
   },
   {
     word: "quello",
     wordTranslation: "that",
-    exampleSentence: "Quello è il mio amico. (That is my friend.)",
+    exampleSentence: "Quello è il mio amico.",
   },
   {
     word: "voi",
-    wordTranslation: "you (pl)",
-    exampleSentence:
-      "Voi andate al cinema stasera? (Are you going to the movies tonight?)",
+    wordTranslation: "you",
+    exampleSentence: "Voi andate al cinema stasera?",
   },
   {
     word: "o",
     wordTranslation: "or",
-    exampleSentence:
-      "Preferisci il tè o il caffè? (Do you prefer tea or coffee?)",
+    exampleSentence: "Preferisci il tè o il caffè?",
   },
   {
     word: "aveva",
     wordTranslation: "had",
-    exampleSentence: "Lui aveva una macchina rossa. (He had a red car.)",
+    exampleSentence: "Lui aveva una macchina rossa.",
   },
   {
     word: "il",
     wordTranslation: "the",
-    exampleSentence: "Il libro è interessante. (The book is interesting.)",
+    exampleSentence: "Il libro è interessante.",
   },
   {
     word: "di",
     wordTranslation: "of",
-    exampleSentence:
-      "La cima di quella montagna è coperta di neve. (The top of that mountain is covered in snow.)",
+    exampleSentence: "La cima di quella montagna è coperta di neve.",
   },
   {
     word: "a",
     wordTranslation: "to",
-    exampleSentence: "Vado a scuola. (I go to school.)",
+    exampleSentence: "Vado a scuola.",
   },
   {
     word: "e",
     wordTranslation: "and",
-    exampleSentence:
-      "Mi piacciono il gelato e la pizza. (I like ice cream and pizza.)",
+    exampleSentence: "Mi piacciono il gelato e la pizza.",
   },
   {
     word: "un",
     wordTranslation: "a",
-    exampleSentence: "Ho comprato un libro. (I bought a book.)",
+    exampleSentence: "Ho comprato un libro.",
   },
   {
     word: "in",
     wordTranslation: "in",
-    exampleSentence: "Il gatto è in casa. (The cat is in the house.)",
+    exampleSentence: "Il gatto è in casa.",
   },
   {
     word: "noi",
     wordTranslation: "we",
-    exampleSentence: "Noi andiamo al parco. (We go to the park.)",
+    exampleSentence: "Noi andiamo al parco.",
   },
   {
     word: "lattina",
-    wordTranslation: "can (of soda)",
-    exampleSentence:
-      "Mi piace bere una lattina di soda. (I like to drink a can of soda.)",
+    wordTranslation: "can",
+    exampleSentence: "Mi piace bere una lattina di soda.",
   },
   {
     word: "fuori",
     wordTranslation: "out",
-    exampleSentence:
-      "Vado fuori a prendere una boccata d'aria. (I'm going out to get some fresh air.)",
+    exampleSentence: "Vado fuori a prendere una boccata d'aria.",
   },
   {
     word: "altro",
     wordTranslation: "other",
-    exampleSentence:
-      "Ho bisogno di un altro bicchiere. (I need another glass.)",
+    exampleSentence: "Ho bisogno di un altro bicchiere.",
   },
   {
     word: "erano",
     wordTranslation: "were",
-    exampleSentence:
-      "Erano in ritardo per la riunione. (They were late for the meeting.)",
+    exampleSentence: "Erano in ritardo per la riunione.",
   },
   {
     word: "che / quale",
     wordTranslation: "which",
-    exampleSentence: "Quale libro preferisci? (Which book do you prefer?)",
+    exampleSentence: "Quale libro preferisci?",
   },
   {
     word: "fare",
     wordTranslation: "to do/make",
-    exampleSentence: "Cosa vuoi fare oggi? (What do you want to do today?)",
+    exampleSentence: "Cosa vuoi fare oggi?",
   },
   {
     word: "loro",
     wordTranslation: "their",
-    exampleSentence: "La casa è loro. (The house is theirs.)",
+    exampleSentence: "La casa è loro.",
   },
   {
     word: "tempo",
     wordTranslation: "time",
-    exampleSentence:
-      "Ho bisogno di più tempo per finire il lavoro. (I need more time to finish the job.)",
+    exampleSentence: "Ho bisogno di più tempo per finire il lavoro.",
   },
   {
     word: "se",
     wordTranslation: "if",
-    exampleSentence:
-      "Se piove, prenderò l'ombrello. (If it rains, I will take an umbrella.)",
+    exampleSentence: "Se piove, prenderò l'ombrello.",
   },
   {
     word: "volontà",
     wordTranslation: "will",
-    exampleSentence: "Voglio andare al mare. (I will go to the sea.)",
+    exampleSentence: "Voglio andare al mare.",
   },
   {
     word: "come",
     wordTranslation: "how",
-    exampleSentence: "Come ti chiami? (What's your name?)",
+    exampleSentence: "Come ti chiami?",
   },
   {
     word: "detto",
     wordTranslation: "said",
-    exampleSentence:
-      "Mi ha detto che verrà domani. (He said he will come tomorrow.)",
+    exampleSentence: "Mi ha detto che verrà domani.",
   },
   {
     word: "un",
     wordTranslation: "an",
-    exampleSentence: "Ho bisogno di un nuovo telefono. (I need a new phone.)",
+    exampleSentence: "Ho bisogno di un nuovo telefono.",
   },
   {
     word: "ogni",
     wordTranslation: "each",
-    exampleSentence: "Ogni giorno vado a correre. (I go for a run every day.)",
+    exampleSentence: "Ogni giorno vado a correre.",
   },
   {
     word: "dire",
     wordTranslation: "tell",
-    exampleSentence: "Posso dirti un segreto? (Can I tell you a secret?)",
+    exampleSentence: "Posso dirti un segreto?",
   },
   {
     word: "fa",
     wordTranslation: "does",
-    exampleSentence:
-      "Che lavoro fa tuo padre? (What does your father do for a living?)",
+    exampleSentence: "Che lavoro fa tuo padre?",
   },
   {
     word: "fisso",
-    wordTranslation: "set (unchanging)",
-    exampleSentence:
-      "La regola è fisso, non può essere cambiata. (The rule is set, it cannot be changed.)",
+    wordTranslation: "set",
+    exampleSentence: "La regola è fisso, non può essere cambiata.",
   },
 
   {
     word: "tre",
     wordTranslation: "three",
-    exampleSentence: "Ho tre fratelli. (I have three brothers.)",
+    exampleSentence: "Ho tre fratelli.",
   },
   {
     word: "desiderare",
     wordTranslation: "desire",
-    exampleSentence:
-      "Desidero viaggiare in tutto il mondo. (I desire to travel around the world.)",
+    exampleSentence: "Desidero viaggiare in tutto il mondo.",
   },
   {
     word: "aria",
     wordTranslation: "air",
-    exampleSentence:
-      "Mi piace respirare l'aria fresca. (I enjoy breathing the fresh air.)",
+    exampleSentence: "Mi piace respirare l'aria fresca.",
   },
   {
     word: "bene",
     wordTranslation: "well",
-    exampleSentence: "Sto bene, grazie. (I'm well, thank you.)",
+    exampleSentence: "Sto bene, grazie.",
   },
   {
     word: "anche",
     wordTranslation: "also",
-    exampleSentence: "Mi piace anche il cioccolato. (I also like chocolate.)",
+    exampleSentence: "Mi piace anche il cioccolato.",
   },
   {
     word: "giocare",
     wordTranslation: "play",
-    exampleSentence: "Mi piace giocare a calcio. (I enjoy playing soccer.)",
+    exampleSentence: "Mi piace giocare a calcio.",
   },
   {
     word: "piccolo",
     wordTranslation: "small",
-    exampleSentence: "Ho comprato una casa piccola. (I bought a small house.)",
+    exampleSentence: "Ho comprato una casa piccola.",
   },
   {
     word: "fine",
     wordTranslation: "end",
-    exampleSentence: "L'anno scolastico è finito. (The school year has ended.)",
+    exampleSentence: "L'anno scolastico è finito.",
   },
   {
     word: "mettere",
     wordTranslation: "put",
-    exampleSentence:
-      "Ho messo le chiavi sulla tavola. (I put the keys on the table.)",
+    exampleSentence: "Ho messo le chiavi sulla tavola.",
   },
   {
     word: "casa",
     wordTranslation: "home",
-    exampleSentence:
-      "Mi piace stare a casa con la famiglia. (I enjoy staying at home with my family.)",
+    exampleSentence: "Mi piace stare a casa con la famiglia.",
   },
   {
     word: "leggere",
     wordTranslation: "read",
-    exampleSentence: "Mi piace leggere romanzi. (I enjoy reading novels.)",
+    exampleSentence: "Mi piace leggere romanzi.",
   },
   {
     word: "mano",
     wordTranslation: "hand",
-    exampleSentence:
-      "Ho scritto il messaggio a mano. (I wrote the message by hand.)",
+    exampleSentence: "Ho scritto il messaggio a mano.",
   },
   {
     word: "portare",
     wordTranslation: "carry",
-    exampleSentence: "Posso portare la tua borsa? (Can I carry your bag?)",
+    exampleSentence: "Posso portare la tua borsa?",
   },
   {
     word: "grande",
     wordTranslation: "large",
-    exampleSentence: "Ho una grande famiglia. (I have a large family.)",
+    exampleSentence: "Ho una grande famiglia.",
   },
   {
     word: "compitare",
-    wordTranslation: "spell (words)",
-    exampleSentence:
-      "Posso compitare la parola 'ciao'. (I can spell the word 'hello'.)",
+    wordTranslation: "spell",
+    exampleSentence: "Posso compitare la parola 'ciao'.",
   },
   {
     word: "aggiungere",
     wordTranslation: "add",
-    exampleSentence:
-      "Devi aggiungere sale alla ricetta. (You need to add salt to the recipe.)",
+    exampleSentence: "Devi aggiungere sale alla ricetta.",
   },
   {
     word: "terra",
     wordTranslation: "land",
-    exampleSentence:
-      "La terra è piena di meraviglie. (The land is full of wonders.)",
+    exampleSentence: "La terra è piena di meraviglie.",
   },
   {
     word: "qui",
     wordTranslation: "here",
-    exampleSentence: "Mi piace stare qui. (I enjoy being here.)",
+    exampleSentence: "Mi piace stare qui.",
   },
   {
     word: "devo",
     wordTranslation: "I must",
-    exampleSentence:
-      "Devo andare a fare la spesa. (I must go grocery shopping.)",
+    exampleSentence: "Devo andare a fare la spesa.",
   },
   {
     word: "grande",
     wordTranslation: "big",
-    exampleSentence:
-      "Ho comprato una torta grande per la festa. (I bought a big cake for the party.)",
+    exampleSentence: "Ho comprato una torta grande per la festa.",
   },
   {
     word: "alto",
     wordTranslation: "high/tall",
-    exampleSentence: "La montagna è molto alta. (The mountain is very tall.)",
+    exampleSentence: "La montagna è molto alta.",
   },
   {
     word: "tale",
     wordTranslation: "such",
-    exampleSentence:
-      "Non ho mai visto una cosa del genere. (I've never seen such a thing.)",
+    exampleSentence: "Non ho mai visto una cosa del genere.",
   },
   {
     word: "seguire",
     wordTranslation: "follow",
-    exampleSentence:
-      "Dovresti seguire le istruzioni. (You should follow the instructions.)",
+    exampleSentence: "Dovresti seguire le istruzioni.",
   },
   {
     word: "atto",
     wordTranslation: "an act",
-    exampleSentence:
-      "Ha commesso un atto di gentilezza. (He/she performed an act of kindness.)",
+    exampleSentence: "Ha commesso un atto di gentilezza.",
   },
   {
     word: "perché",
     wordTranslation: "why",
-    exampleSentence:
-      "Non capisco perché ha detto quello. (I don't understand why he/she said that.)",
+    exampleSentence: "Non capisco perché ha detto quello.",
   },
   {
     word: "chiedere",
     wordTranslation: "ask",
-    exampleSentence: "Posso chiederti un favore? (Can I ask you a favor?)",
+    exampleSentence: "Posso chiederti un favore?",
   },
   {
     word: "maschi",
     wordTranslation: "men",
-    exampleSentence:
-      "Gli uomini hanno partecipato alla riunione. (The men attended the meeting.)",
+    exampleSentence: "Gli uomini hanno partecipato alla riunione.",
   },
   {
     word: "cambiamento",
     wordTranslation: "a change",
-    exampleSentence:
-      "Il cambiamento può portare nuove opportunità. (Change can bring new opportunities.)",
+    exampleSentence: "Il cambiamento può portare nuove opportunità.",
   },
   {
     word: "è andato",
     wordTranslation: "he/she went",
-    exampleSentence:
-      "Ieri è andato al cinema con gli amici. (Yesterday he/she went to the movies with friends.)",
+    exampleSentence: "Ieri è andato al cinema con gli amici.",
   },
   {
     word: "luce",
     wordTranslation: "light",
-    exampleSentence:
-      "Accendi la luce, per favore. (Turn on the light, please.)",
+    exampleSentence: "Accendi la luce, per favore.",
   },
   {
     word: "tipo",
-    wordTranslation: "kind (of thing)",
-    exampleSentence:
-      "Mi piace leggere libri di ogni tipo. (I enjoy reading books of every kind.)",
+    wordTranslation: "kind",
+    exampleSentence: "Mi piace leggere libri di ogni tipo.",
   },
   {
     word: "spento",
     wordTranslation: "turned off",
-    exampleSentence:
-      "Ho spento il computer prima di uscire. (I turned off the computer before leaving.)",
+    exampleSentence: "Ho spento il computer prima di uscire.",
   },
   {
     word: "bisogno",
     wordTranslation: "need",
-    exampleSentence: "Ho bisogno di aiuto. (I need help.)",
+    exampleSentence: "Ho bisogno di aiuto.",
   },
   {
     word: "casa",
     wordTranslation: "house",
-    exampleSentence: "La mia casa è accogliente. (My house is cozy.)",
+    exampleSentence: "La mia casa è accogliente.",
   },
   {
     word: "immagine",
     wordTranslation: "image",
-    exampleSentence:
-      "Ho scattato una foto dell'immagine bellissima. (I took a picture of the beautiful image.)",
+    exampleSentence: "Ho scattato una foto dell'immagine bellissima.",
   },
   {
     word: "provare",
     wordTranslation: "try",
-    exampleSentence:
-      "Voglio provare questo nuovo ristorante. (I want to try this new restaurant.)",
+    exampleSentence: "Voglio provare questo nuovo ristorante.",
   },
   {
     word: "noi",
     wordTranslation: "us",
-    exampleSentence: "Vieni con noi al parco. (Come with us to the park.)",
+    exampleSentence: "Vieni con noi al parco.",
   },
   {
     word: "di nuovo",
     wordTranslation: "again",
-    exampleSentence:
-      "Dobbiamo ripetere l'esercizio di nuovo. (We need to do the exercise again.)",
+    exampleSentence: "Dobbiamo ripetere l'esercizio di nuovo.",
   },
   {
     word: "animale",
     wordTranslation: "animal",
-    exampleSentence:
-      "L'elefante è un grande animale. (The elephant is a large animal.)",
+    exampleSentence: "L'elefante è un grande animale.",
   },
   {
     word: "punto",
     wordTranslation: "point",
-    exampleSentence:
-      "Non capisco il tuo punto di vista. (I don't understand your point of view.)",
+    exampleSentence: "Non capisco il tuo punto di vista.",
   },
   {
     word: "madre",
     wordTranslation: "mother",
-    exampleSentence:
-      "Mia madre cucina sempre cibo delizioso. (My mother always cooks delicious food.)",
+    exampleSentence: "Mia madre cucina sempre cibo delizioso.",
   },
   {
     word: "mondo",
     wordTranslation: "world",
-    exampleSentence:
-      "Ci sono molte cose da esplorare nel mondo. (There are many things to explore in the world.)",
+    exampleSentence: "Ci sono molte cose da esplorare nel mondo.",
   },
   {
     word: "vicino",
     wordTranslation: "near",
-    exampleSentence:
-      "Il supermercato è vicino alla mia casa. (The supermarket is near my house.)",
+    exampleSentence: "Il supermercato è vicino alla mia casa.",
   },
   {
     word: "costruire",
     wordTranslation: "build",
-    exampleSentence:
-      "Stanno costruendo un nuovo edificio in città. (They are building a new building in the city.)",
+    exampleSentence: "Stanno costruendo un nuovo edificio in città.",
   },
   {
     word: "se stesso",
     wordTranslation: "himself",
-    exampleSentence:
-      "Si guarda nello specchio e si ammira se stesso. (He looks in the mirror and admires himself.)",
+    exampleSentence: "Si guarda nello specchio e si ammira se stesso.",
   },
   {
     word: "terra",
     wordTranslation: "earth",
-    exampleSentence: "La Terra è il nostro pianeta. (Earth is our planet.)",
+    exampleSentence: "La Terra è il nostro pianeta.",
   },
   {
     word: "padre",
     wordTranslation: "father",
-    exampleSentence: "Mio padre è un bravo cuoco. (My father is a good cook.)",
+    exampleSentence: "Mio padre è un bravo cuoco.",
   },
   {
     word: "qualsiasi",
     wordTranslation: "any",
-    exampleSentence:
-      "Puoi scegliere qualsiasi libro dalla libreria. (You can choose any book from the library.)",
+    exampleSentence: "Puoi scegliere qualsiasi libro dalla libreria.",
   },
   {
     word: "nuovo",
     wordTranslation: "new",
-    exampleSentence: "Ho comprato un nuovo vestito. (I bought a new dress.)",
+    exampleSentence: "Ho comprato un nuovo vestito.",
   },
   {
     word: "lavoro",
     wordTranslation: "work",
-    exampleSentence: "Mi piace il mio lavoro. (I enjoy my work.)",
+    exampleSentence: "Mi piace il mio lavoro.",
   },
   {
     word: "parte",
     wordTranslation: "part",
-    exampleSentence:
-      "Ogni parte del puzzle è importante. (Every part of the puzzle is important.)",
+    exampleSentence: "Ogni parte del puzzle è importante.",
   },
   {
     word: "prendere",
     wordTranslation: "take",
-    exampleSentence:
-      "Devo prendere l'autobus per andare in centro. (I need to take the bus to go downtown.)",
+    exampleSentence: "Devo prendere l'autobus per andare in centro.",
   },
   {
     word: "ottenere",
     wordTranslation: "get",
-    exampleSentence:
-      "Spero di ottenere il lavoro che ho richiesto. (I hope to get the job I applied for.)",
+    exampleSentence: "Spero di ottenere il lavoro che ho richiesto.",
   },
   {
     word: "posto",
     wordTranslation: "place",
-    exampleSentence:
-      "Questo è un bel posto per fare una passeggiata. (This is a nice place to take a walk.)",
+    exampleSentence: "Questo è un bel posto per fare una passeggiata.",
   },
   {
     word: "fatto",
     wordTranslation: "made",
-    exampleSentence: "Questa torta è fatta in casa. (This cake is homemade.)",
+    exampleSentence: "Questa torta è fatta in casa.",
   },
   {
     word: "vivere",
     wordTranslation: "live",
-    exampleSentence:
-      "Voglio vivere una vita felice. (I want to live a happy life.)",
+    exampleSentence: "Voglio vivere una vita felice.",
   },
   {
     word: "dove",
     wordTranslation: "where",
-    exampleSentence:
-      "Mi chiedo dove sia il mio libro. (I wonder where my book is.)",
+    exampleSentence: "Mi chiedo dove sia il mio libro.",
   },
   {
     word: "dopo",
     wordTranslation: "after",
-    exampleSentence:
-      "Andiamo a prendere un caffè dopo cena. (Let's go for a coffee after dinner.)",
+    exampleSentence: "Andiamo a prendere un caffè dopo cena.",
   },
   {
     word: "indietro",
     wordTranslation: "back",
-    exampleSentence:
-      "Sono tornato indietro per prendere il mio portafoglio. (I went back to get my wallet.)",
+    exampleSentence: "Sono tornato indietro per prendere il mio portafoglio.",
   },
   {
     word: "poco",
     wordTranslation: "little",
-    exampleSentence: "Ho solo un po' di soldi. (I have only a little money.)",
+    exampleSentence: "Ho solo un po' di soldi.",
   },
   {
     word: "solo",
     wordTranslation: "only",
-    exampleSentence:
-      "Ho bisogno di un po' di tempo solo per me. (I need some time alone for myself.)",
+    exampleSentence: "Ho bisogno di un po' di tempo solo per me.",
   },
   {
     word: "turno",
     wordTranslation: "round",
-    exampleSentence: "È il tuo turno di giocare. (It's your turn to play.)",
+    exampleSentence: "È il tuo turno di giocare.",
   },
   {
     word: "uomo",
     wordTranslation: "man",
-    exampleSentence:
-      "L'uomo che ho incontrato era gentile. (The man I met was kind.)",
+    exampleSentence: "L'uomo che ho incontrato era gentile.",
   },
   {
     word: "anno",
     wordTranslation: "year",
-    exampleSentence:
-      "Quest'anno ho intenzione di imparare una nuova lingua. (This year, I plan to learn a new language.)",
+    exampleSentence: "Quest'anno ho intenzione di imparare una nuova lingua.",
   },
   {
     word: "è venuto",
     wordTranslation: "came",
-    exampleSentence:
-      "Marco è venuto alla festa ieri sera. (Marco came to the party last night.)",
+    exampleSentence: "Marco è venuto alla festa ieri sera.",
   },
   {
     word: "spettacolo",
     wordTranslation: "show",
-    exampleSentence:
-      "Mi piace guardare spettacoli teatrali. (I enjoy watching theater shows.)",
+    exampleSentence: "Mi piace guardare spettacoli teatrali.",
   },
   {
     word: "ogni",
     wordTranslation: "every",
-    exampleSentence:
-      "Vado in palestra ogni giorno. (I go to the gym every day.)",
+    exampleSentence: "Vado in palestra ogni giorno.",
   },
   {
     word: "buono",
     wordTranslation: "good",
-    exampleSentence:
-      "Il cibo in questo ristorante è davvero buono. (The food at this restaurant is really good.)",
+    exampleSentence: "Il cibo in questo ristorante è davvero buono.",
   },
   {
     word: "me",
     wordTranslation: "me",
-    exampleSentence: "Puoi chiamarmi quando vuoi. (You can call me anytime.)",
+    exampleSentence: "Puoi chiamarmi quando vuoi.",
   },
   {
     word: "dare",
     wordTranslation: "give",
-    exampleSentence:
-      "Posso darti una mano con i bagagli? (Can I give you a hand with the luggage?)",
+    exampleSentence: "Posso darti una mano con i bagagli?",
   },
   {
     word: "il nostro",
     wordTranslation: "our",
-    exampleSentence: "Questa è la nostra casa. (This is our house.)",
+    exampleSentence: "Questa è la nostra casa.",
   },
   {
     word: "sotto",
     wordTranslation: "under",
-    exampleSentence:
-      "Ho messo le chiavi sotto il tappeto. (I put the keys under the doormat.)",
+    exampleSentence: "Ho messo le chiavi sotto il tappeto.",
   },
   {
     word: "nome",
     wordTranslation: "name",
-    exampleSentence: "Mi chiamo Luca. (My name is Luca.)",
+    exampleSentence: "Mi chiamo Luca.",
   },
   {
     word: "molto",
     wordTranslation: "very",
-    exampleSentence:
-      "Sono molto felice di vederti. (I'm very happy to see you.)",
+    exampleSentence: "Sono molto felice di vederti.",
   },
   {
     word: "attraverso",
     wordTranslation: "through",
-    exampleSentence:
-      "Attraverso la foresta per raggiungere il fiume. (I go through the forest to reach the river.)",
+    exampleSentence: "Attraverso la foresta per raggiungere il fiume.",
   },
   {
     word: "solo",
     wordTranslation: "just",
-    exampleSentence:
-      "Ho appena mangiato, quindi sono solo un po' affamato. (I just ate, so I'm just a little hungry.)",
+    exampleSentence: "Ho appena mangiato, quindi sono solo un po' affamato.",
   },
   {
     word: "forma",
     wordTranslation: "form",
     exampleSentence:
-      "Il gelato si scioglie rapidamente a causa della sua forma. (Ice cream melts quickly because of its form.)",
+      "Il gelato si scioglie rapidamente a causa della sua forma.",
   },
   {
     word: "frase",
     wordTranslation: "sentence",
-    exampleSentence:
-      "Puoi costruire una frase con queste parole? (Can you build a sentence with these words?)",
+    exampleSentence: "Puoi costruire una frase con queste parole?",
   },
   {
     word: "grande",
     wordTranslation: "great",
-    exampleSentence:
-      "Hai fatto un lavoro davvero grande! (You did a great job!)",
+    exampleSentence: "Hai fatto un lavoro davvero grande!",
   },
   {
     word: "pensare",
     wordTranslation: "think",
-    exampleSentence:
-      "Devo pensarci un po' prima di prendere una decisione. (I need to think about it before making a decision.)",
+    exampleSentence: "Devo pensarci un po' prima di prendere una decisione.",
   },
   {
     word: "dire",
     wordTranslation: "say",
-    exampleSentence: "Posso dire una cosa? (Can I say something?)",
+    exampleSentence: "Posso dire una cosa?",
   },
   {
     word: "aiutare",
     wordTranslation: "help",
-    exampleSentence:
-      "Posso aiutarti a portare le borse. (I can help you carry the bags.)",
+    exampleSentence: "Posso aiutarti a portare le borse.",
   },
   {
     word: "basso",
     wordTranslation: "low",
-    exampleSentence:
-      "Il volume della musica è troppo basso. (The volume of the music is too low.)",
+    exampleSentence: "Il volume della musica è troppo basso.",
   },
   {
     word: "linea",
     wordTranslation: "line",
-    exampleSentence:
-      "Segui la linea tracciata sulla mappa. (Follow the line drawn on the map.)",
+    exampleSentence: "Segui la linea tracciata sulla mappa.",
   },
   {
     word: "differire",
     wordTranslation: "differ",
-    exampleSentence:
-      "Le nostre opinioni differiscono su questo argomento. (Our opinions differ on this subject.)",
+    exampleSentence: "Le nostre opinioni differiscono su questo argomento.",
   },
   {
     word: "turno",
     wordTranslation: "turn",
-    exampleSentence:
-      "È il tuo turno di lanciare il dado. (It's your turn to roll the dice.)",
+    exampleSentence: "È il tuo turno di lanciare il dado.",
   },
   {
     word: "causa",
     wordTranslation: "cause",
-    exampleSentence:
-      "Il vento forte è la causa del rumore. (The strong wind is the cause of the noise.)",
+    exampleSentence: "Il vento forte è la causa del rumore.",
   },
   {
     word: "molto",
     wordTranslation: "much",
-    exampleSentence:
-      "Ho mangiato troppo e ora mi sento molto pieno. (I ate too much and now I feel very full.)",
+    exampleSentence: "Ho mangiato troppo e ora mi sento molto pieno.",
   },
   {
     word: "dire",
     wordTranslation: "mean",
-    exampleSentence:
-      "Cosa intendi dire con questa frase? (What do you mean by this sentence?)",
+    exampleSentence: "Cosa intendi dire con questa frase?",
   },
   {
     word: "prima",
     wordTranslation: "before",
-    exampleSentence:
-      "Devo finire questo lavoro prima di partire. (I need to finish this work before leaving.)",
+    exampleSentence: "Devo finire questo lavoro prima di partire.",
   },
   {
     word: "spostare",
     wordTranslation: "move",
-    exampleSentence:
-      "Devo spostare il tavolo per pulire il pavimento. (I need to move the table to clean the floor.)",
+    exampleSentence: "Devo spostare il tavolo per pulire il pavimento.",
   },
   {
     word: "diritto",
     wordTranslation: "right",
-    exampleSentence:
-      "Prendi la prima strada a destra. (Take the first street on the right.)",
+    exampleSentence: "Prendi la prima strada a destra.",
   },
   {
     word: "ragazzo",
     wordTranslation: "boy",
-    exampleSentence:
-      "Il bambino è diventato un ragazzo. (The child has become a boy.)",
+    exampleSentence: "Il bambino è diventato un ragazzo.",
   },
   {
     word: "vecchio",
     wordTranslation: "old",
-    exampleSentence:
-      "Ho una macchina vecchia, ma funziona ancora bene. (I have an old car, but it still works well.)",
+    exampleSentence: "Ho una macchina vecchia, ma funziona ancora bene.",
   },
   {
     word: "troppo",
     wordTranslation: "too",
-    exampleSentence:
-      "Il cibo è troppo piccante per me. (The food is too spicy for me.)",
+    exampleSentence: "Il cibo è troppo piccante per me.",
   },
   {
     word: "stesso",
     wordTranslation: "same",
-    exampleSentence:
-      "Abbiamo lo stesso gusto in musica. (We have the same taste in music.)",
+    exampleSentence: "Abbiamo lo stesso gusto in musica.",
   },
   {
     word: "lei",
     wordTranslation: "she",
-    exampleSentence: "Lei è una persona gentile. (She is a kind person.)",
+    exampleSentence: "Lei è una persona gentile.",
   },
   {
     word: "tutto",
     wordTranslation: "all",
-    exampleSentence: "Ho dato tutto ciò che avevo. (I gave all that I had.)",
+    exampleSentence: "Ho dato tutto ciò che avevo.",
   },
   {
     word: "ci",
     wordTranslation: "there",
-    exampleSentence: "C'è qualcuno là fuori? (Is there anyone out there?)",
+    exampleSentence: "C'è qualcuno là fuori?",
   },
   {
     word: "quando",
     wordTranslation: "when",
-    exampleSentence:
-      "Mi piace uscire con i miei amici quando ho tempo libero. (I like to hang out with my friends when I have free time.)",
+    exampleSentence: "Mi piace uscire con i miei amici quando ho tempo libero.",
   },
   {
     word: "su",
     wordTranslation: "up",
-    exampleSentence:
-      "Ho appeso il quadro su quella parete. (I hung the picture up on that wall.)",
+    exampleSentence: "Ho appeso il quadro su quella parete.",
   },
   {
     word: "uso",
     wordTranslation: "use",
-    exampleSentence: "Posso usare la tua penna? (Can I use your pen?)",
+    exampleSentence: "Posso usare la tua penna?",
   },
   {
     word: "il tuo",
     wordTranslation: "your",
-    exampleSentence: "Ho bisogno del tuo aiuto. (I need your help.)",
+    exampleSentence: "Ho bisogno del tuo aiuto.",
   },
   {
     word: "modo",
     wordTranslation: "way",
-    exampleSentence:
-      "Puoi fare le cose a modo tuo. (You can do things your way.)",
+    exampleSentence: "Puoi fare le cose a modo tuo.",
   },
   {
     word: "circa",
     wordTranslation: "about",
-    exampleSentence:
-      "L'incontro inizia circa alle 9. (The meeting starts at about 9 o'clock.)",
+    exampleSentence: "L'incontro inizia circa alle 9.",
   },
   {
     word: "molti",
     wordTranslation: "many",
-    exampleSentence:
-      "Ci sono molti libri nella biblioteca. (There are many books in the library.)",
+    exampleSentence: "Ci sono molti libri nella biblioteca.",
   },
   {
     word: "allora",
     wordTranslation: "then",
-    exampleSentence:
-      "Se studi duro, allora avrai successo. (If you study hard, then you will succeed.)",
+    exampleSentence: "Se studi duro, allora avrai successo.",
   },
   {
     word: "loro",
     wordTranslation: "them",
-    exampleSentence:
-      "Ho visto i miei amici e ho parlato con loro. (I saw my friends and talked to them.)",
+    exampleSentence: "Ho visto i miei amici e ho parlato con loro.",
   },
   {
     word: "scrivere",
     wordTranslation: "write",
-    exampleSentence:
-      "Devo scrivere un'email importante. (I need to write an important email.)",
+    exampleSentence: "Devo scrivere un'email importante.",
   },
   {
     word: "sarebbe",
     wordTranslation: "would",
-    exampleSentence:
-      "Sarebbe bello andare in vacanza. (It would be nice to go on vacation.)",
+    exampleSentence: "Sarebbe bello andare in vacanza.",
   },
   {
     word: "come",
     wordTranslation: "like",
-    exampleSentence:
-      "Mi piace il caffè come lo fai tu. (I like coffee like you make it.)",
+    exampleSentence: "Mi piace il caffè come lo fai tu.",
   },
   {
     word: "così",
     wordTranslation: "so",
-    exampleSentence:
-      "È stato un giorno lungo, sono stanco così. (It's been a long day, I'm so tired.)",
+    exampleSentence: "È stato un giorno lungo, sono stanco così.",
   },
   {
     word: "queste",
     wordTranslation: "these",
-    exampleSentence:
-      "Queste scarpe sono molto comode. (These shoes are very comfortable.)",
+    exampleSentence: "Queste scarpe sono molto comode.",
   },
   {
     word: "lei",
     wordTranslation: "her",
-    exampleSentence:
-      "Ho incontrato Maria e ho parlato con lei. (I met Maria and talked to her.)",
+    exampleSentence: "Ho incontrato Maria e ho parlato con lei.",
   },
   {
     word: "lungo",
     wordTranslation: "long",
-    exampleSentence:
-      "Ho letto un libro molto lungo. (I read a very long book.)",
+    exampleSentence: "Ho letto un libro molto lungo.",
   },
   {
     word: "rendere",
     wordTranslation: "make",
-    exampleSentence:
-      "Mi piace cucinare e rendere i piatti deliziosi. (I enjoy cooking and making delicious dishes.)",
+    exampleSentence: "Mi piace cucinare e rendere i piatti deliziosi.",
   },
   {
     word: "cosa",
     wordTranslation: "thing",
-    exampleSentence:
-      "Ho comprato una cosa nuova oggi. (I bought a new thing today.)",
+    exampleSentence: "Ho comprato una cosa nuova oggi.",
   },
   {
     word: "vedere",
     wordTranslation: "see",
-    exampleSentence:
-      "Vorrei vedere il film che hai menzionato. (I would like to see the movie you mentioned.)",
+    exampleSentence: "Vorrei vedere il film che hai menzionato.",
   },
   {
     word: "lui",
     wordTranslation: "him",
-    exampleSentence:
-      "Ho incontrato Luca e ho parlato con lui. (I met Luca and talked to him.)",
+    exampleSentence: "Ho incontrato Luca e ho parlato con lui.",
   },
   {
     word: "due",
     wordTranslation: "two",
-    exampleSentence: "Ho comprato due libri oggi. (I bought two books today.)",
+    exampleSentence: "Ho comprato due libri oggi.",
   },
   {
     word: "ha",
     wordTranslation: "has",
-    exampleSentence: "Maria ha un gatto. (Maria has a cat.)",
+    exampleSentence: "Maria ha un gatto.",
   },
   {
     word: "guardare",
     wordTranslation: "look",
-    exampleSentence:
-      "Guarda quel bellissimo tramonto! (Look at that beautiful sunset!)",
+    exampleSentence: "Guarda quel bellissimo tramonto!",
   },
   {
     word: "di più",
     wordTranslation: "more",
-    exampleSentence:
-      "Vorrei avere di più tempo libero. (I wish I had more free time.)",
+    exampleSentence: "Vorrei avere di più tempo libero.",
   },
   {
     word: "giorno",
     wordTranslation: "day",
-    exampleSentence:
-      "Oggi è una bella giornata di sole. (Today is a beautiful sunny day.)",
+    exampleSentence: "Oggi è una bella giornata di sole.",
   },
   {
     word: "potuto",
     wordTranslation: "could",
-    exampleSentence: "Avrei potuto fare di meglio. (I could have done better.)",
+    exampleSentence: "Avrei potuto fare di meglio.",
   },
   {
     word: "andare",
     wordTranslation: "go",
-    exampleSentence:
-      "Voglio andare al cinema stasera. (I want to go to the movies tonight.)",
+    exampleSentence: "Voglio andare al cinema stasera.",
   },
   {
     word: "venire",
     wordTranslation: "come",
-    exampleSentence:
-      "Vieni alla festa domani? (Are you coming to the party tomorrow?)",
+    exampleSentence: "Vieni alla festa domani?",
   },
   {
     word: "ha fatto",
     wordTranslation: "did",
-    exampleSentence:
-      "Maria ha fatto un ottimo lavoro. (Maria did an excellent job.)",
+    exampleSentence: "Maria ha fatto un ottimo lavoro.",
   },
   {
     word: "numero",
     wordTranslation: "number",
-    exampleSentence:
-      "Mi puoi dare il tuo numero di telefono? (Can you give me your phone number?)",
+    exampleSentence: "Mi puoi dare il tuo numero di telefono?",
   },
   {
     word: "suono",
     wordTranslation: "sound",
-    exampleSentence:
-      "Mi piace il suono delle onde del mare. (I like the sound of ocean waves.)",
+    exampleSentence: "Mi piace il suono delle onde del mare.",
   },
   {
     word: "no",
     wordTranslation: "no",
-    exampleSentence:
-      "Ho detto di no alla proposta. (I said no to the proposal.)",
+    exampleSentence: "Ho detto di no alla proposta.",
   },
   {
     word: "più",
     wordTranslation: "most",
-    exampleSentence:
-      "Quello è il libro più interessante che abbia mai letto. (That's the most interesting book I've ever read.)",
+    exampleSentence: "Quello è il libro più interessante che abbia mai letto.",
   },
   {
     word: "persone",
     wordTranslation: "people",
-    exampleSentence:
-      "Le persone sono entusiaste del concerto. (People are excited about the concert.)",
+    exampleSentence: "Le persone sono entusiaste del concerto.",
   },
   {
     word: "il mio",
     wordTranslation: "my",
-    exampleSentence:
-      "Ho lasciato il mio libro a casa. (I left my book at home.)",
+    exampleSentence: "Ho lasciato il mio libro a casa.",
   },
   {
     word: "oltre",
     wordTranslation: "over",
-    exampleSentence:
-      "Siamo andati oltre le nostre aspettative. (We went over our expectations.)",
+    exampleSentence: "Siamo andati oltre le nostre aspettative.",
   },
   {
     word: "sapere",
     wordTranslation: "know",
-    exampleSentence: "Voglio sapere la verità. (I want to know the truth.)",
+    exampleSentence: "Voglio sapere la verità.",
   },
   {
     word: "acqua",
     wordTranslation: "water",
-    exampleSentence:
-      "Ho sete, posso avere un bicchiere d'acqua? (I'm thirsty, can I have a glass of water?)",
+    exampleSentence: "Ho sete, posso avere un bicchiere d'acqua?",
   },
   {
     word: "di",
     wordTranslation: "than",
-    exampleSentence: "Preferisco il tè al caffè. (I prefer tea than coffee.)",
+    exampleSentence: "Preferisco il tè al caffè.",
   },
   {
     word: "chiamata",
     wordTranslation: "call",
-    exampleSentence:
-      "Ho ricevuto una chiamata importante. (I received an important call.)",
+    exampleSentence: "Ho ricevuto una chiamata importante.",
   },
   {
     word: "primo",
     wordTranslation: "first",
-    exampleSentence:
-      "Questa è la mia prima volta qui. (This is my first time here.)",
+    exampleSentence: "Questa è la mia prima volta qui.",
   },
   {
     word: "che",
     wordTranslation: "who",
-    exampleSentence:
-      "Quella è la persona che mi ha aiutato. (That's the person who helped me.)",
+    exampleSentence: "Quella è la persona che mi ha aiutato.",
   },
   {
     word: "può",
     wordTranslation: "may",
-    exampleSentence: "Posso chiederti una cosa? (May I ask you something?)",
+    exampleSentence: "Posso chiederti una cosa?",
   },
   {
     word: "giù",
     wordTranslation: "down",
-    exampleSentence:
-      "Vai giù le scale e troverai l'ufficio. (Go down the stairs and you will find the office.)",
+    exampleSentence: "Vai giù le scale e troverai l'ufficio.",
   },
   {
     word: "lato",
     wordTranslation: "side",
-    exampleSentence:
-      "Il negozio si trova sul lato destro della strada. (The shop is on the right side of the road.)",
+    exampleSentence: "Il negozio si trova sul lato destro della strada.",
   },
   {
     word: "stato",
     wordTranslation: "been",
-    exampleSentence:
-      "Sono stato a Parigi l'anno scorso. (I've been to Paris last year.)",
+    exampleSentence: "Sono stato a Parigi l'anno scorso.",
   },
   {
     word: "ora",
     wordTranslation: "now",
-    exampleSentence: "Devo andare ora. (I have to go now.)",
+    exampleSentence: "Devo andare ora.",
   },
   {
     word: "trovare",
     wordTranslation: "find",
-    exampleSentence:
-      "Ho trovato le chiavi nel cassetto. (I found the keys in the drawer.)",
+    exampleSentence: "Ho trovato le chiavi nel cassetto.",
   },
   {
     word: "testa",
     wordTranslation: "head",
-    exampleSentence: "Ho un forte mal di testa. (I have a strong headache.)",
+    exampleSentence: "Ho un forte mal di testa.",
   },
   {
     word: "stare in piedi",
     wordTranslation: "stand",
     exampleSentence:
-      "Devi stare in piedi durante l'esecuzione dell'inno nazionale. (You must stand during the national anthem.)",
+      "Devi stare in piedi durante l'esecuzione dell'inno nazionale.",
   },
   {
     word: "proprio",
     wordTranslation: "own",
-    exampleSentence:
-      "Ho il mio proprio appartamento. (I have my own apartment.)",
+    exampleSentence: "Ho il mio proprio appartamento.",
   },
   {
     word: "pagina",
     wordTranslation: "page",
-    exampleSentence:
-      "Ho letto fino all'ultima pagina del libro. (I read until the last page of the book.)",
+    exampleSentence: "Ho letto fino all'ultima pagina del libro.",
   },
   {
     word: "dovrebbe",
     wordTranslation: "should",
-    exampleSentence:
-      "Dovresti chiamare tua madre. (You should call your mother.)",
+    exampleSentence: "Dovresti chiamare tua madre.",
   },
   {
     word: "paese",
     wordTranslation: "country",
-    exampleSentence:
-      "Mi piacerebbe visitare un paese esotico. (I would like to visit an exotic country.)",
+    exampleSentence: "Mi piacerebbe visitare un paese esotico.",
   },
   {
     word: "fondare",
     wordTranslation: "found",
-    exampleSentence:
-      "Hanno fondato un'azienda di successo insieme. (They founded a successful company together.)",
+    exampleSentence: "Hanno fondato un'azienda di successo insieme.",
   },
   {
     word: "risposta",
     wordTranslation: "answer",
-    exampleSentence:
-      "Ho bisogno di una risposta entro domani. (I need an answer by tomorrow.)",
+    exampleSentence: "Ho bisogno di una risposta entro domani.",
   },
   {
     word: "scuola",
     wordTranslation: "school",
-    exampleSentence: "Vado alla scuola superiore. (I go to high school.)",
+    exampleSentence: "Vado alla scuola superiore.",
   },
   {
     word: "crescere",
     wordTranslation: "grow",
-    exampleSentence:
-      "I bambini crescono così velocemente. (Children grow up so fast.)",
+    exampleSentence: "I bambini crescono così velocemente.",
   },
   {
     word: "studio",
     wordTranslation: "study",
-    exampleSentence:
-      "Ho bisogno di trovare un posto tranquillo per lo studio. (I need to find a quiet place for studying.)",
+    exampleSentence: "Ho bisogno di trovare un posto tranquillo per lo studio.",
   },
   {
     word: "ancora",
     wordTranslation: "still",
-    exampleSentence:
-      "Non ho ancora finito il mio compito. (I still haven't finished my homework.)",
+    exampleSentence: "Non ho ancora finito il mio compito.",
   },
   {
     word: "imparare",
     wordTranslation: "learn",
-    exampleSentence:
-      "Mi piace imparare nuove cose. (I enjoy learning new things.)",
+    exampleSentence: "Mi piace imparare nuove cose.",
   },
   {
     word: "impianto",
     wordTranslation: "plant",
-    exampleSentence:
-      "Ho piantato dei fiori nel mio giardino. (I planted some flowers in my garden.)",
+    exampleSentence: "Ho piantato dei fiori nel mio giardino.",
   },
   {
     word: "copertura",
     wordTranslation: "cover",
-    exampleSentence:
-      "La copertura del libro è molto attraente. (The cover of the book is very appealing.)",
+    exampleSentence: "La copertura del libro è molto attraente.",
   },
   {
     word: "cibo",
     wordTranslation: "food",
-    exampleSentence:
-      "Mi piace cucinare e assaggiare cibi diversi. (I enjoy cooking and trying different foods.)",
+    exampleSentence: "Mi piace cucinare e assaggiare cibi diversi.",
   },
   {
     word: "sole",
     wordTranslation: "sun",
-    exampleSentence:
-      "Mi piace prendere il sole in spiaggia. (I enjoy sunbathing at the beach.)",
+    exampleSentence: "Mi piace prendere il sole in spiaggia.",
   },
   {
     word: "quattro",
     wordTranslation: "four",
-    exampleSentence:
-      "Ci sono quattro stagioni in un anno. (There are four seasons in a year.)",
+    exampleSentence: "Ci sono quattro stagioni in un anno.",
   },
   {
     word: "fra",
     wordTranslation: "between",
-    exampleSentence:
-      "Il mio ufficio si trova tra il ristorante e la banca. (My office is between the restaurant and the bank.)",
+    exampleSentence: "Il mio ufficio si trova tra il ristorante e la banca.",
   },
   {
     word: "stato",
     wordTranslation: "state",
-    exampleSentence:
-      "Ho visitato diversi stati durante il mio viaggio. (I visited different states during my trip.)",
+    exampleSentence: "Ho visitato diversi stati durante il mio viaggio.",
   },
   {
     word: "mantenere",
     wordTranslation: "keep",
-    exampleSentence:
-      "Devi mantenere la calma durante situazioni difficili. (You need to keep calm during difficult situations.)",
+    exampleSentence: "Devi mantenere la calma durante situazioni difficili.",
   },
   {
     word: "occhio",
     wordTranslation: "eye",
-    exampleSentence: "Ho un mal di occhio. (I have an eye ache.)",
+    exampleSentence: "Ho un mal di occhio.",
   },
   {
     word: "mai",
     wordTranslation: "never",
-    exampleSentence:
-      "Non ho mai visto un film così bello. (I've never seen such a beautiful movie.)",
+    exampleSentence: "Non ho mai visto un film così bello.",
   },
   {
     word: "ultimo",
     wordTranslation: "last",
-    exampleSentence:
-      "È stata l'ultima volta che l'ho visto. (It was the last time I saw him.)",
+    exampleSentence: "È stata l'ultima volta che l'ho visto.",
   },
   {
     word: "lasciare",
     wordTranslation: "let",
-    exampleSentence: "Lasciami provare. (Let me try.)",
+    exampleSentence: "Lasciami provare.",
   },
   {
     word: "pensiero",
     wordTranslation: "thought",
-    exampleSentence: "Ho un pensiero in mente. (I have a thought in my mind.)",
+    exampleSentence: "Ho un pensiero in mente.",
   },
   {
     word: "città",
     wordTranslation: "city",
-    exampleSentence:
-      "Mi piace visitare nuove città. (I enjoy visiting new cities.)",
+    exampleSentence: "Mi piace visitare nuove città.",
   },
   {
     word: "albero",
     wordTranslation: "tree",
-    exampleSentence:
-      "Ho un albero di ciliegio nel mio giardino. (I have a cherry tree in my garden.)",
+    exampleSentence: "Ho un albero di ciliegio nel mio giardino.",
   },
   {
     word: "attraversare",
     wordTranslation: "cross",
-    exampleSentence:
-      "Dobbiamo attraversare la strada. (We need to cross the road.)",
+    exampleSentence: "Dobbiamo attraversare la strada.",
   },
   {
     word: "fattoria",
     wordTranslation: "farm",
-    exampleSentence:
-      "Mi piace visitare le fattorie e vedere gli animali. (I enjoy visiting farms and seeing the animals.)",
+    exampleSentence: "Mi piace visitare le fattorie e vedere gli animali.",
   },
   {
     word: "difficile",
     wordTranslation: "hard",
-    exampleSentence:
-      "L'esame è stato molto difficile. (The exam was very hard.)",
+    exampleSentence: "L'esame è stato molto difficile.",
   },
   {
     word: "inizio",
     wordTranslation: "start",
-    exampleSentence:
-      "L'inizio del film è molto interessante. (The start of the movie is very interesting.)",
+    exampleSentence: "L'inizio del film è molto interessante.",
   },
 
   {
@@ -4985,7 +4830,7 @@ export const WORDS: Array<Word> = [
   },
   {
     word: "punteggio",
-    wordTranslation: "score (noun)",
+    wordTranslation: "score",
     exampleSentence: "Il punteggio finale della partita è stato 3-1.",
   },
   {
@@ -5025,7 +4870,7 @@ export const WORDS: Array<Word> = [
   },
   {
     word: "banda",
-    wordTranslation: "band (rubber)",
+    wordTranslation: "band",
     exampleSentence: "Ho legato una banda di gomma intorno ai fogli di carta.",
   },
   {
@@ -5101,7 +4946,7 @@ export const WORDS: Array<Word> = [
   },
   {
     word: "sedile",
-    wordTranslation: "seat (in a car)",
+    wordTranslation: "seat",
     exampleSentence: "Mi sono seduto sul sedile posteriore dell'auto.",
   },
   {
@@ -5275,7 +5120,7 @@ export const WORDS: Array<Word> = [
   },
   {
     word: "tratto",
-    wordTranslation: "stretch (of land)",
+    wordTranslation: "stretch",
     exampleSentence: "La strada costeggia un lungo tratto di campagna.",
   },
   {
