@@ -21,6 +21,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 type WordCardProps = {
   word: string;
   wordTranslation?: string;
+  exampleSentence?: string;
   wordGuess?: string;
   wordNumber?: number;
   isError?: boolean;
@@ -40,6 +41,7 @@ type WordCardProps = {
 const WordCard = ({
   word,
   wordTranslation,
+  exampleSentence,
   wordGuess,
   wordNumber,
   isError,
@@ -72,10 +74,7 @@ const WordCard = ({
         <div>
           <Typography variant="subtitle1" component="div">
             Word
-            {wordNumber && <>
-              &nbsp;
-              #{wordNumber}
-            </>}
+            {wordNumber && <>&nbsp; #{wordNumber}</>}
           </Typography>
           <Typography variant="h4">
             {word}
@@ -88,6 +87,11 @@ const WordCard = ({
               </>
             )}
           </Typography>
+          {!!exampleSentence && (
+            <Typography variant="h6" sx={{ opacity: 0.85 }} mb={1}>
+              {exampleSentence}
+            </Typography>
+          )}
         </div>
         {showGuessForm && (
           <form onSubmit={onWordGuessSubmit}>
